@@ -6,7 +6,7 @@ import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
-function Portfolio() {
+const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
@@ -69,6 +69,6 @@ function Portfolio() {
       </div>
     </div>
   );
-}
+};
 
 export default Portfolio;
