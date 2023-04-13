@@ -11,26 +11,38 @@ const Portfolio = () => {
     {
       id: 1,
       src: arrayDestruct,
+      demoLink: "https://incomparable-banoffee-04aba0.netlify.app/",
+      codeLink: "https://github.com/Akash00799/HtmlFW-Restaurent.git",
     },
     {
       id: 2,
       src: reactParallax,
+      demoLink: "https://spontaneous-bublanina-b62eda.netlify.app/",
+      codeLink: "https://github.com/Akash00799/Login-page.git",
     },
     {
       id: 3,
       src: navbar,
+      demoLink: "https://fastidious-crisp-0e1d11.netlify.app/",
+      codeLink: "https://github.com/Akash00799/Caluculator-JS.git",
     },
     {
       id: 4,
       src: reactSmooth,
+      demoLink: "https://spiffy-pony-5b0db6.netlify.app/",
+      codeLink: "https://github.com/Akash00799/Musicplayer-JS.git",
     },
     {
       id: 5,
       src: installNode,
+      demoLink: "https://example.com/demo5",
+      codeLink: "https://github.com/example/repo5",
     },
     {
       id: 6,
       src: reactWeather,
+      demoLink: "https://example.com/demo6",
+      codeLink: "https://github.com/example/repo6",
     },
   ];
 
@@ -48,7 +60,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, demoLink, codeLink }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -56,12 +68,22 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a
+                  href={demoLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                >
                   Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                </a>
+                <a
+                  href={codeLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                >
                   Code
-                </button>
+                </a>
               </div>
             </div>
           ))}

@@ -8,7 +8,7 @@ import SocialLinks from "./components/SocialLinks";
 
 function App() {
   return (
-    <div  className="bg-blue-500 sm:bg-green-500 md:bg-red-500 lg:bg-yellow-500 xl:bg-pink-500">
+    <div>
       <NavBar />
       <Home />
       <About />
