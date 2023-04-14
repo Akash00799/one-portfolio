@@ -10,7 +10,7 @@ const Footer = () => {
       </div>
       <div className="flex ml-4">
         <a
-          href="https://github.com/yourgithubusername"
+          href="https://github.com/Akash00799"
           target="_blank"
           rel="noopener noreferrer"
           className="mx-2 text-gray-500 hover:text-white transition duration-300"
@@ -18,7 +18,7 @@ const Footer = () => {
           <FaGithub size={20} />
         </a>
         <a
-          href="https://linkedin.com/in/yourlinkedinusername"
+          href="https://www.linkedin.com/in/akash-bhardwaj-a07475261/"
           target="_blank"
           rel="noopener noreferrer"
           className="mx-2 text-gray-500 hover:text-white transition duration-300"
@@ -26,7 +26,7 @@ const Footer = () => {
           <FaLinkedin size={20} />
         </a>
         <a
-          href="https://instagram.com/yourinstagramusername"
+          href="https://www.instagram.com/imakash_bhardwaj007/"
           target="_blank"
           rel="noopener noreferrer"
           className="mx-2 text-gray-500 hover:text-white transition duration-300"
@@ -34,7 +34,7 @@ const Footer = () => {
           <FaInstagram size={20} />
         </a>
         <a
-          href="https://facebook.com/yourfacebookusername"
+          href="https://www.facebook.com/007akash.bhardwaj/"
           target="_blank"
           rel="noopener noreferrer"
           className="mx-2 text-gray-500 hover:text-white transition duration-300"
@@ -42,11 +42,11 @@ const Footer = () => {
           <FaFacebook size={20} />
         </a>
         <p className="mx-2 text-gray-500 hidden lg:block">
-          Phone: 123-456-7890
+          Phone: +91-8209725123
         </p>
       </div>
       <div className="flex ml-4 lg:hidden">
-        <p className="mx-2 text-gray-500">123-456-7890</p>
+        <p className="mx-2 text-gray-500">+91-8209725123</p>
       </div>
     </div>
   );

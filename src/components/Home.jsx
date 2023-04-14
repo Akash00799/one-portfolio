@@ -18,9 +18,9 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I am full stack devloper building a website Currently, I love to
-            work on web application using technologies like React, Tailwind,
-            Next JS and GrapgQl
+            I am a full stack developer who loves creating beautiful,
+            functional, and user-friendly web applications using the latest
+            tools and technologies. Let's bring your ideas to life together!
           </p>
 
           <div>
