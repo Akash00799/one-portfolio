@@ -1,4 +1,5 @@
 import React from "react";
+import "../Tailwind.css";
 import { FaGithub, FaLinkedin, FaInstagram, FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
@@ -40,7 +41,9 @@ const Footer = () => {
         >
           <FaFacebook size={20} />
         </a>
-        <p className="mx-2 text-gray-500 hidden lg:block">Phone: 123-456-7890</p>
+        <p className="mx-2 text-gray-500 hidden lg:block">
+          Phone: 123-456-7890
+        </p>
       </div>
       <div className="flex ml-4 lg:hidden">
         <p className="mx-2 text-gray-500">123-456-7890</p>
