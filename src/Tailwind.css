@@ -1,0 +1,44 @@
+/* tailwind.css */
+@media (max-width: 639px) {
+    /* Small phones */
+    .text-small-phone {
+      font-size: 14px;
+    }
+    .sm\:pr-8 {
+        padding-right: 2rem;
+      }
+      .sm\:grid-cols-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+  }
+  
+  @media (min-width: 640px) and (max-width: 767px) {
+    /* Large phones */
+    .text-large-phone {
+      font-size: 16px;
+    }
+    .md\:flex-row {
+        flex-direction: row;
+      }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* Tablets */
+    .text-tablet {
+      font-size: 18px;
+    }
+    .md\:flex-row {
+        flex-direction: row;
+      }
+      .md\:w-full {
+        width: 100%;
+      }
+  }
+  
+  @media (min-width: 1024px) {
+    /* Desktops and laptops */
+    .text-desktop {
+      font-size: 20px;
+    }
+  }
+  

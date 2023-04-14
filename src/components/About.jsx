@@ -8,7 +8,7 @@ function About() {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">About</p>
         </div>
 
-        <p className="text-xl mt-20">
+        <p className="text-xl mt-20 md:mt-10 text-small-phone text-tablet">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
           repellat veritatis delectus aut maiores corporis facere
           necessitatibus, deleniti repudiandae sapiente suscipit quo voluptates
@@ -20,7 +20,7 @@ function About() {
 
         <br />
 
-        <p className="text-xl">
+        <p className="text-xl md:text-lg text-small-phone text-tablet">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus autem
           nisi, possimus rerum natus, earum sint tempore ipsa quae impedit,
           velit dolorem quis ab vel et. Ipsa, ut provident suscipit labore

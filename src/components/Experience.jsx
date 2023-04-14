@@ -1,4 +1,5 @@
 import React from "react";
+import "../Tailwind.css"
 
 import html from "../assets/html.png";
 import css from "../assets/css.png";
@@ -26,7 +27,7 @@ const Experience = () => {
     {
       id: 3,
       src: javascript,
-      title: "JavaScript",
+      title: "JS",
       style: "shadow-yellow-500",
     },
     {
