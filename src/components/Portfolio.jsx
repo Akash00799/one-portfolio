@@ -35,8 +35,8 @@ const Portfolio = () => {
     {
       id: 5,
       src: installNode,
-      demoLink: "https://example.com/demo5",
-      codeLink: "https://github.com/example/repo5",
+      demoLink: "https://rainbow-syrniki-3ec202.netlify.app/",
+      codeLink: "https://github.com/Akash00799/KBCproject-React.git",
     },
     {
       id: 6,
