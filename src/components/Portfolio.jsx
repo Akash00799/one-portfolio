@@ -42,8 +42,8 @@ const Portfolio = () => {
     {
       id: 6,
       src: reactWeather,
-      demoLink: "https://example.com/demo6",
-      codeLink: "https://github.com/example/repo6",
+      demoLink: "https://grand-donut-f4b6e7.netlify.app/",
+      codeLink: "https://github.com/Akash00799/flagreactx.git",
     },
   ];
 
