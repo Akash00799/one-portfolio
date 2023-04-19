@@ -3,7 +3,7 @@ import "../Tailwind.css";
 import arrayDestruct from "../assets/portfolio/JPG-2.jpg";
 import installNode from "../assets/portfolio/react.webp";
 import navbar from "../assets/portfolio/Javascript.jpg";
-import reactParallax from "../assets/portfolio/JPG-2.jpg";
+import reactParallax from "../assets/portfolio/react.webp";
 import reactSmooth from "../assets/portfolio/Javascript.jpg";
 import reactWeather from "../assets/portfolio/react.webp";
 
@@ -17,33 +17,33 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: reactParallax,
-      demoLink: "https://spontaneous-bublanina-b62eda.netlify.app/",
-      codeLink: "https://github.com/Akash00799/Login-page.git",
-    },
-    {
-      id: 3,
       src: navbar,
       demoLink: "https://fastidious-crisp-0e1d11.netlify.app/",
       codeLink: "https://github.com/Akash00799/Caluculator-JS.git",
     },
     {
-      id: 4,
+      id: 3,
       src: reactSmooth,
       demoLink: "https://spiffy-pony-5b0db6.netlify.app/",
       codeLink: "https://github.com/Akash00799/Musicplayer-JS.git",
     },
     {
-      id: 5,
+      id: 4,
       src: installNode,
       demoLink: "https://rainbow-syrniki-3ec202.netlify.app/",
       codeLink: "https://github.com/Akash00799/KBCproject-React.git",
     },
     {
-      id: 6,
+      id: 5,
       src: reactWeather,
       demoLink: "https://grand-donut-f4b6e7.netlify.app/",
       codeLink: "https://github.com/Akash00799/flagreactx.git",
+    },
+    {
+      id: 6,
+      src: reactParallax,
+      demoLink: "https://stunning-hotteok-1ae1e3.netlify.app/",
+      codeLink: "https://github.com/Akash00799/tictacreact.git",
     },
   ];
 
