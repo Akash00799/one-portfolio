@@ -5,7 +5,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
 const Home = () => {
-  const fileUrl = "/AB-Resume.pdf";
+  const fileUrl = "/ab.pdf";
 
   return (
     <div
